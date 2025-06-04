@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sydney Tropical Goldfish Paradise</title>
+<style>
+body {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f0f8ff; /* Light blue background /
+color: #333;
+}
+header {
+background-color: #a0dad1; / Light turquoise header /
+color: #fff;
+padding: 20px;
+text-align: center;
+/ Request for header background image /
+background-image: url('header-tropical-fish.png');
+background-size: cover;
+background-position: center;
+}
+nav {
+background-color: #e0f2f7; / Very light blue navigation /
+padding: 10px;
+text-align: center;
+}
+nav a {
+display: inline-block;
+padding: 10px 20px;
+text-decoration: none;
+color: #008080; / Teal link color /
+border-radius: 5px;
+margin: 0 10px;
+}
+nav a:hover {
+background-color: #b2ebf2; / Slightly darker light blue on hover */
+}
+main {
+padding: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+}
+.goldfish-item {
+background-color: #fff;
+border: 1px solid #ddd;
+padding: 15px;
+border-radius: 8px;
+text-align: center;
+}
+.goldfish-item img {
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+footer {
+text-align: center;
+padding: 10px;
+background-color: #a0dad1;
+color: #fff;
+position: sticky;
+bottom: 0;
+width: 100%;
+}
+</style>
+</head>
+<body>
+<header>
+<img src="web-img/logo-tropical-goldfish.png" alt="Sydney Goldfish Paradise Logo" style="max-height: 100px;">
+<h1>Welcome to Sydney Goldfish Paradise!</h1>
+<p>Your local source for beautiful and healthy goldfish in Sydney!</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Our Goldfish</a>
+    <a href="#">Aquariums & Supplies</a>
+    <a href="#">Care Guides</a>
+    <a href="#">Contact Us</a>
+</nav>
+
+<main>
+    <div class="goldfish-item">
+        <img src="web-img/goldfish-fancy-tropical.png" alt="Fancy Goldfish">
+        <h3>Fancy Goldfish</h3>
+        <p>Beautiful and elegant goldfish with flowing fins.</p>
+        <p>Starting from $15</p>
+        <button>View Details</button>
+    </div>
+
+    <div class="goldfish-item">
+        <img src="web-img/goldfish-comet-tropical.png" alt="Comet Goldfish">
+        <h3>Comet Goldfish</h3>
+        <p>Active and hardy goldfish, great for beginners.</p>
+        <p>Starting from $8</p>
+        <button>View Details</button>
+    </div>
+
+    <div class="goldfish-item">
+        <img src="web-img/goldfish-shubunkin-tropical.png" alt="Shubunkin Goldfish">
+        <h3>Shubunkin Goldfish</h3>
+        <p>Calico-colored goldfish with a unique appearance.</p>
+        <p>Starting from $12</p>
+        <button>View Details</button>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Sydney Goldfish Paradise - Located in beautiful Sydney, NSW!</p>
+</footer>
