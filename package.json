@@ -1,0 +1,23 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "Single Page Web App deployed on Firebase",
+  "homepage": "https://github.com/phrayze/spa#readme",
+  "bugs": {
+    "url": "https://github.com/phrayze/spa/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phrayze/spa.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "firebase": "^11.8.1"
+  }
+}
